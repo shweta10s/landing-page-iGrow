@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.context {
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, #161C2D 99.54%);
+    background-blend-mode: multiply;
+}
+
+.box {
+    border-radius: 20px;
+    border: 1px solid #E5F4F2;
+    background: #FFF;
+    /* background: red; */
+    box-shadow: 34.854px 29.626px 48.34px 0px rgba(51, 102, 255, 0.05);
+}
+
+.ol-1 {
+    width: fit-content;
+    padding: 20px;
+    object-fit: cover;
+    border-radius: 20px;
+    background: rgba(255, 98, 80, 0.20);
+}
+
+.ol-2 {
+    width: fit-content;
+    padding: 20px;
+    object-fit: cover;
+    border-radius: 20px;
+    background: rgba(0, 147, 121, 0.20);
+}
+
+.ol-3 {
+    width: fit-content;
+    padding: 20px;
+    object-fit: cover;
+    border-radius: 20px;
+    background: rgba(248, 213, 126, 0.20);
+}
+
+.matric {
+    border-radius: 20px 20px 0px 0px;
+    border-bottom: 4px solid #E5F4F2;
+    background: #FFF;
+    box-shadow: 34.854px 29.626px 48.34px 0px rgba(51, 102, 255, 0.05);
+}
+
+.about {
+    border-radius: 20px;
+    border: 1px solid #E5F4F2;
+    background: #FFF;
+}
+.overlay{
+    border-radius: 10px;
+background: #161C2D;
+box-shadow: 0px 62px 64px -10px rgba(1, 23, 48, 0.12);
+}
+.contact-form{
+    border-radius: 20px;
+border: 1px solid #E5F4F2;
+background: #E5F4F2;
+}
